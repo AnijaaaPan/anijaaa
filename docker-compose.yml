@@ -1,0 +1,80 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./app.Dockerfile
+    env_file:
+      - ./src/.env
+    volumes:
+      - /app/storage/framework
+      - type: bind
+        source: ./src/public/build
+        target: /app/public/build
+      - type: bind
+        source: ./src/app
+        target: /app/app
+      - type: bind
+        source: ./src/config
+        target: /app/config
+      - type: bind
+        source: ./src/database
+        target: /app/database
+      - type: bind
+        source: ./src/resources
+        target: /app/resources
+      - type: bind
+        source: ./src/routes
+        target: /app/routes
+    networks:
+      - network
+    depends_on:
+      - mariadb
+      - dragonflydb
+
+  web:
+    image: nginx:1-alpine
+    ports:
+      - "8081:80"
+    volumes:
+      - type: bind
+        source: ./default.conf
+        target: /etc/nginx/conf.d/default.conf
+      - type: bind
+        source: ./src
+        target: /app
+      - /app/storage/framework
+      - /app/storage/app
+    networks:
+      - network
+    depends_on:
+      - app
+
+  mariadb:
+    image: mariadb:11.0.1-rc-jammy
+    env_file:
+      - ./src/.env
+    restart: always
+    environment:
+      MYSQL_DATABASE: "${DB_DATABASE}"
+      MYSQL_USER: "${DB_USERNAME}"
+      MYSQL_PASSWORD: "${DB_PASSWORD}"
+      MYSQL_ROOT_PASSWORD: "${DB_PASSWORD}"
+      TZ: "Asia/Tokyo"
+    volumes:
+      - mysql-volume:/var/lib/mysql
+    networks:
+      - network
+
+  dragonflydb:
+    image: docker.dragonflydb.io/dragonflydb/dragonfly:latest
+    volumes:
+      - .:/app
+    networks:
+      - network
+
+volumes:
+  mysql-volume:
+
+networks:
+  network:
+    driver: bridge
