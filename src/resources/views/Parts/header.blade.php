@@ -1,23 +1,19 @@
-<header>
-  <div class="logo">
-    <a href="/">
-      <img src="{{ asset('image/icon1.png') }}" alt="">
-    </a>
-  </div>
-  <div>
-    @CheckLogin
-    <form method="post" name="logout" action="/logout">
-      @csrf
-      <input type="hidden" name="user_name" value="名前">
-      <a href="" onclick="submit();return false;">ログアウト</a>
-    </form>
-    @else
-    <a href="{{ route('login') }}">ログイン</a>
-    @endCheckLogin
+<header id="top-head">
+  <div class="inner">
+    <div id="nav_toggle">
+      <div>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/works">Work</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
   </div>
 </header>
-<script>
-function submit() {
-  document.logout.submit();
-}
-</script>
+<div class="slider-header"></div>

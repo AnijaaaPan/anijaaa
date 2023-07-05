@@ -6,8 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <title>@yield('title')</title>
+
   @vite(['resources/scss/app.scss'])
-  @vite(['resources/ts/app.ts'])
+  @vite(['resources/ts/header.ts'])
 </head>
 
 <body>

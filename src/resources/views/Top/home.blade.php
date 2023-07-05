@@ -1,5 +1,9 @@
 @extends('Layouts.common')
 @section('title', 'トップ')
 @section('content')
-    <p>トップページ</p>
+<main>
+  <div id="symbol">
+    <img src="{{ asset('/image/Simbol.png') }}" />
+  </div>
+</main>
 @endsection

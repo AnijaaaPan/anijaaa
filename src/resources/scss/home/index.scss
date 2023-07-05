@@ -1,0 +1,15 @@
+div#symbol {
+  position: relative;
+  height: 92.5vh;
+
+  img {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 80%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+  }
+}
