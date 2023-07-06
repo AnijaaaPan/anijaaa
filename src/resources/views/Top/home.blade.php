@@ -3,8 +3,10 @@
 @section('content')
 <main>
   <div id="symbol">
-    <img src="{{ asset('/image/Simbol.png') }}" />
-    <div id="bottom-border"></div>
+    <div id="logo">
+      <img src="{{ asset('/image/Simbol.png') }}" />
+      <div id="bottom-border"></div>
+    </div>
   </div>
 </main>
 @endsection
