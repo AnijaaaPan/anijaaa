@@ -8,6 +8,22 @@
     }
 }
 
+@mixin sliderHr {
+    width: 150%;
+    height: 7.5vh;
+
+    animation: slideHeader 20s linear infinite;
+
+    background: #fff;
+    background-image: linear-gradient(
+        to right,
+        black 33%,
+        rgba(255, 255, 255, 0) 0%
+    );
+    background-repeat: repeat-x;
+    background-size: 5px 1.5px;
+}
+
 #top-slider-hr {
     position: fixed;
     z-index: 999;
@@ -15,41 +31,19 @@
     right: 0;
     left: 0;
 
-    width: 150%;
-    height: 7.5vh;
-
-    animation: slideHeader 20s linear infinite;
-
-    background: #fff;
-    background-image: linear-gradient(
-        to right,
-        black 33%,
-        rgba(255, 255, 255, 0) 0%
-    );
-    background-repeat: repeat-x;
-    background-position: bottom;
-    background-size: 5px 1.5px;
+    background-position: bottom !important;
     box-shadow: 5px 2.5px 2.5px gray;
+
+    @include sliderHr;
 }
 
 #bottom-slider-hr {
     position: absolute;
 
-    width: 150%;
-    height: 7.5vh;
-
-    animation: slideHeader 20s linear infinite;
-
-    background: #fff;
-    background-image: linear-gradient(
-        to right,
-        black 33%,
-        rgba(255, 255, 255, 0) 0%
-    );
-    background-repeat: repeat-x;
-    background-position: top;
-    background-size: 5px 1.5px;
+    background-position: top !important;
     box-shadow: 0 -1px 1px 1px gray;
+
+    @include sliderHr;
 }
 
 html,
