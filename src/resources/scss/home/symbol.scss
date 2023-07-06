@@ -1,0 +1,77 @@
+@keyframes svg {
+    0% {
+        fill: transparent;
+        stroke-dashoffset: 100%;
+    }
+    80% {
+        fill: transparent;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+div#symbol {
+    height: 92.5vh;
+
+    div#logo {
+        position: relative;
+        top: 50%;
+        left: 50%;
+
+        width: 75%;
+
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+
+        rotate: 3.5deg;
+
+        svg {
+            width: 100%;
+            height: 30%;
+
+            object-fit: cover;
+            filter: drop-shadow(0.25vh 0.25vh 0.15vh black);
+
+            path {
+                animation: svg 2.5s ease-in both;
+
+                stroke: #111;
+                stroke-width: 0.25px;
+                stroke-dasharray: 100%;
+            }
+        }
+
+        div#bottom-border {
+            position: absolute;
+            top: 85% !important;
+            left: -50% !important;
+
+            width: 200%;
+            height: 0.5vh;
+
+            border-bottom: double 10px black;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    div#symbol div#logo {
+        top: 47.5%;
+
+        width: 100%;
+
+        svg {
+            filter: none;
+
+            path {
+                stroke-width: 2px;
+            }
+        }
+
+        div#bottom-border {
+            border-bottom: double 7.5px black;
+        }
+    }
+}

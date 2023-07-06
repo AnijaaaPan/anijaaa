@@ -1,22 +1,17 @@
-<header id="top-head">
+<header id="top-menu">
   <nav class="inner">
     <ul>
       <li>
-        <a href="/">
-          <p>Home</p>
-        </a>
+        <a href="/">Home</a>
       </li>
       <li>
-        <a href="/works">
-          <p>Work</p>
-        </a>
+        <a href="/works">Work</a>
       </li>
       <li>
-        <a href="/contact">
-          <p>Contact</p>
-        </a>
+        <a href="/contact">Contact</a>
       </li>
     </ul>
   </nav>
 </header>
-<div class="slider-header"></div>
+
+<div id="top-slider-hr"></div>

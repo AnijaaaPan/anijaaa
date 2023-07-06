@@ -10,12 +10,12 @@
   <title>@yield('title')</title>
 
   @vite(['resources/scss/app.scss'])
-  @vite(['resources/ts/header.ts'])
 </head>
 
 <body>
   @include('Parts.header')
   @yield('content')
+  @include('Parts.footer')
 </body>
 
 </html>
