@@ -1,19 +1,22 @@
 <header id="top-head">
-  <div class="inner">
-    <div id="nav_toggle">
-      <div>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/works">Work</a></li>
-        <li><a href="/contact">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
+  <nav class="inner">
+    <ul>
+      <li>
+        <a href="/">
+          <p>Home</p>
+        </a>
+      </li>
+      <li>
+        <a href="/works">
+          <p>Work</p>
+        </a>
+      </li>
+      <li>
+        <a href="/contact">
+          <p>Contact</p>
+        </a>
+      </li>
+    </ul>
+  </nav>
 </header>
 <div class="slider-header"></div>
