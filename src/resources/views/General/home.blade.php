@@ -1,5 +1,7 @@
 @extends('Layouts.common')
 @section('title', 'トップ')
+@section('description', 'ホーム画面だよ。かなり『シンプル is Best』なんじゃない？')
+@section('canonical', '')
 @section('content')
 <main>
   <div id="symbol">
