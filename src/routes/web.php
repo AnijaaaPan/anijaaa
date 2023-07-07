@@ -15,4 +15,3 @@ use Illuminate\Support\Facades\Route;
 */
 
 require __DIR__.'/top.php';
-require __DIR__.'/discord.php';

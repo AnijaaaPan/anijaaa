@@ -34,10 +34,22 @@ nav.inner {
         display: flex;
         list-style-type: none;
         li a {
-            font-weight: bold;
-            padding: 2.25vh 7.5vw;
             text-decoration: none;
             color: #404040;
+
+            p {
+                font-weight: bold;
+                display: block;
+            }
+
+            span {
+                display: none;
+            }
+
+            p,
+            span {
+                padding: 2.25vh 7.5vw;
+            }
         }
 
         li a:hover {
@@ -55,6 +67,16 @@ nav.inner {
 
             li {
                 margin: auto;
+
+                a {
+                    p {
+                        display: none;
+                    }
+
+                    span {
+                        display: block;
+                    }
+                }
             }
         }
     }
