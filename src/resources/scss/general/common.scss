@@ -46,9 +46,8 @@
     @include sliderHr;
 }
 
-html,
 body {
-    overflow-x: hidden;
+    overflow: hidden;
 
     width: 100%;
 
@@ -58,6 +57,5 @@ body {
 main {
     width: 85%;
     min-height: 92.5vh;
-    margin: 0 auto;
-    margin-top: 7.5vh;
+    margin: 7.5vh auto;
 }
