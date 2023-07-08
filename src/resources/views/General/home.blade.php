@@ -13,16 +13,15 @@
 
         <line x1="10.56" y1="63.6" x2="369.27" y2="63.6" />
       </svg>
+
       <div id="bottom-border"></div>
     </div>
   </div>
 
-  <a class="twitter-timeline" data-lang="ja" href="https://twitter.com/Anijaaatakoyaki?ref_src=twsrc%5Etfw">Tweets by
-    Anijaaatakoyaki</a>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <a class="twitter-timeline" data-lang="ja" href="https://twitter.com/Anijaaatakoyaki?ref_src=twsrc%5Etfw"></a>
 </main>
 @endsection
 
 @section('add-ts')
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script src="{{ asset('/js/widgets.js') }}" crossorigin="anonymous"></script>
 @endsection

@@ -46,7 +46,17 @@
     @include sliderHr;
 }
 
+html {
+    overflow-x: hidden;
+
+    width: 100vw;
+    height: 100vh;
+}
+
 body {
+    font-family: Helvetica, "游ゴシック", "Yu Gothic", YuGothic, HiraKakuProN-W3,
+        "メイリオ", Meiryo, sans-serif;
+
     overflow: hidden;
 
     width: 100%;
@@ -58,4 +68,13 @@ main {
     width: 85%;
     min-height: 92.5vh;
     margin: 7.5vh auto;
+}
+
+.h1 {
+    font-size: 2em;
+
+    margin: 0;
+    padding: 5vh 0;
+
+    text-align: center;
 }

@@ -1,0 +1,122 @@
+.cf {
+    zoom: 1;
+}
+
+.cf:before,
+.cf:after {
+    display: table;
+    content: "";
+}
+
+.cf:after {
+    clear: both;
+}
+
+.contentBox {
+    margin: 0 20px;
+
+    .textBox {
+        font-size: unset;
+        margin-bottom: 30px;
+    }
+
+    .imgFace {
+        margin-bottom: 40px;
+        text-align: center;
+        img {
+            width: 160px;
+            height: 160px;
+            border-radius: 17.5%;
+            box-shadow: 10px 10px 15px -10px;
+        }
+    }
+
+    div.profileBoxRight .profile {
+        font-size: 13px;
+        margin-bottom: 30px;
+        dt {
+            font-weight: bold;
+            display: block;
+            float: left;
+            width: 30%;
+        }
+
+        dd {
+            font-size: 13px;
+            width: 70%;
+            margin-left: 30%;
+        }
+    }
+}
+
+@media only screen and (min-width: 961px) {
+    #main.inner {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .contentBox {
+        margin: 0;
+
+        .profileBox {
+            width: 960px;
+
+            .profileBoxLeft {
+                float: left;
+                width: 160px;
+                text-align: left;
+            }
+
+            .profileBoxRight {
+                width: 760px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 760px) {
+    #main.inner {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .contentBox {
+        margin: 0 40px;
+
+        .textBox {
+            font-size: large;
+            margin-bottom: 50px;
+        }
+
+        .profileBox {
+            width: 100%;
+
+            .profileBoxLeft {
+                float: left;
+                width: 20%;
+                text-align: left;
+            }
+
+            .profileBoxRight {
+                float: right;
+                width: 70%;
+                .profile {
+                    font-size: large;
+                    margin-bottom: 20px;
+                    dt {
+                        font-weight: bold;
+                        display: block;
+                        float: left;
+                    }
+
+                    dd {
+                        font-size: large;
+                        width: 80%;
+                    }
+                }
+            }
+        }
+    }
+}

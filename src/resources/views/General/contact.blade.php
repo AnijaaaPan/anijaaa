@@ -7,7 +7,7 @@
 @vite(['resources/scss/contact.scss'])
 
 @if (isset($completed) || isset($unknownRequired))
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+<link rel="stylesheet" href="{{ asset('/css/sweetalert2.min.css') }}">
 
 <style>
   .swal2-popup {
@@ -38,7 +38,7 @@
 
 @section('content')
 <main>
-  <h1 style="padding: 5vh 0;font-size: 2em;">お問い合わせ</h1>
+  <h1 class="h1">お問い合わせ</h1>
 
   <div class="container">
     <form method="POST">
@@ -79,6 +79,8 @@
     </form>
   </div>
 
+  <h1 class="h1">SNS</h1>
+
   <ul id="sns">
     <li>
       <a href="https://twitter.com/Anijaaatakoyaki" class="button bg-twitter">
@@ -110,10 +112,10 @@
 @endsection
 
 @section('add-ts')
-<script src="https://kit.fontawesome.com/c8953a9fe2.js" crossorigin="anonymous"></script>
+<script src="{{ asset('/js/fontawesome.js') }}" crossorigin="anonymous"></script>
 
 @if (isset($completed) || isset($unknownRequired))
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+<script src="{{ asset('/js/sweetalert2.min.js') }}"></script>
 @endif
 
 @if (isset($completed))
