@@ -72,6 +72,15 @@ services:
     networks:
       - network
 
+  mailhog:
+    build: ./mailhog
+    ports:
+      - "1025:1025"
+      - "8025:8025"
+    networks:
+      - network
+    image: mailhog/mailhog #追加
+
 volumes:
   mysql-volume:
 

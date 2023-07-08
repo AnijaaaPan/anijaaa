@@ -1,0 +1,90 @@
+#sns {
+    display: flex;
+    justify-content: space-around;
+    max-width: 750px;
+    margin: auto;
+    margin-top: 7.5vh;
+    padding: 0 !important;
+    list-style-type: none;
+    li {
+        text-align: center !important;
+        a.button {
+            font-size: 33px;
+            position: relative;
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            transition: 0.5s;
+            text-decoration: none;
+            color: #fff !important;
+            border-radius: 13px;
+            i {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        a.button:hover {
+            -webkit-transform: translateY(-5px);
+            -ms-transform: translateY(-5px);
+            transform: translateY(-5px);
+        }
+
+        a.bg-twitter {
+            background: #55acee;
+        }
+
+        a.bg-instagram {
+            overflow: hidden;
+            background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%)
+                no-repeat;
+            background: linear-gradient(135deg, #427eff 0%, #f13f79 70%)
+                no-repeat;
+            .fab.instagram {
+                font-size: 40px;
+            }
+        }
+
+        a.bg-instagram:before {
+            position: absolute;
+            top: 27px;
+            left: -12px;
+            width: 59px;
+            height: 40px;
+            content: "";
+            background: -webkit-radial-gradient(
+                #ffdb2c 7%,
+                rgba(255, 105, 34, 0.3) 60%,
+                rgba(255, 88, 96, 0) 70%
+            );
+            background: radial-gradient(
+                #ffdb2c 7%,
+                rgba(255, 105, 34, 0.3) 60%,
+                rgba(255, 88, 96, 0) 70%
+            );
+        }
+
+        a.bg-facebook {
+            background: -webkit-linear-gradient(top, #5c80c6 0%, #34528c 74%);
+            background: linear-gradient(to bottom, #5c80c6 0%, #34528c 74%);
+            .fab.facebook {
+                font-size: 43px;
+                position: relative;
+                top: 23px;
+                left: 17px;
+            }
+        }
+
+        a.bg-github {
+            background: #000;
+        }
+
+        a.bg-discord {
+            background: #7289da;
+        }
+    }
+}

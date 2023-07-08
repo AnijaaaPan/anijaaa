@@ -11,3 +11,4 @@ Route::get('/', [Home::class, 'page'])->name('home');
 Route::get('/works', [Works::class, 'page'])->name('works');
 Route::get('/about', [About::class, 'page'])->name('about');
 Route::get('/contact', [Contact::class, 'page'])->name('contact');
+Route::post('/contact', [Contact::class, 'sendEmail'])->name('contact');

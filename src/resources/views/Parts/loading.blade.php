@@ -7,7 +7,6 @@
     <div class="shadow"></div>
     <div class="shadow"></div>
   </div>
-  <span class="loading-text">Loading...</span>
 
   <noscript>
     <p style="margin-top: 1em;">※JavaScriptが無効のためロードが終了しません。</p>

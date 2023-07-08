@@ -1,7 +1,7 @@
 @extends('Layouts.common')
 @section('title', 'Error')
 @section('description', 'Error画面だよ。なぜこんなページに来てしまった？')
-@section('canonical', '')
+
 @section('content')
 <main>
   <div id="forever-loading">
