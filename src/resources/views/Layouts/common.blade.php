@@ -16,7 +16,7 @@
   @yield('content')
   @include('Parts.footer')
 
-  @vite(['resources/ts/load.ts'])
+  <script src="{{ asset('/js/load.js') }}"></script>
   @yield('add-ts')
 </body>
 

@@ -13,7 +13,7 @@ export default defineConfig({
                 "resources/scss/app.scss",
                 "resources/scss/about.scss",
                 "resources/scss/contact.scss",
-                "resources/ts/load.ts",
+                "resources/scss/works.scss",
             ],
             refresh: true,
         }),

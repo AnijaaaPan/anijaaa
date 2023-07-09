@@ -1,0 +1,19 @@
+div.year-works {
+    margin: 3.5vh 0;
+
+    .h2 {
+        font-size: 1.75em;
+        margin-bottom: 2.5vh;
+        padding: 5px;
+        text-align: left;
+        border-bottom: double 7.5px black;
+    }
+
+    &:first-child {
+        margin-bottom: 0;
+    }
+
+    &:last-child {
+        margin-top: 0;
+    }
+}

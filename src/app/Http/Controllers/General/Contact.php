@@ -13,6 +13,7 @@ use App\Mail\SendMail;
 class Contact extends BaseController
 {
     use AuthorizesRequests, ValidatesRequests;
+
     public function page()
     {
         return view('General.contact');

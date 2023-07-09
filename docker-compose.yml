@@ -25,6 +25,9 @@ services:
       - type: bind
         source: ./src/routes
         target: /app/routes
+      - type: bind
+        source: ./src/public
+        target: /app/public
     networks:
       - network
     depends_on:
