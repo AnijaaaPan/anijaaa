@@ -12,11 +12,12 @@
 <main>
   <h1 class="h1">実績</h1>
 
-  @foreach ($jsonData as $data)
+  @foreach ($works as $data)
   <div class="year-works">
     <h2 class="h2">{{ $data["year"] }}</h2>
 
-    <ul class="slider js-flickity" data-flickity-options='{ "wrapAround": false, "prevNextButtons": false, "pageDots": false }'>
+    <ul class="slider js-flickity"
+      data-flickity-options='{ "wrapAround": false, "prevNextButtons": false, "pageDots": false }'>
       @foreach ($data["works"] as $w)
       <li class="slider-cell">
         <a href="{{ asset('works/'.$w['page']) }}">

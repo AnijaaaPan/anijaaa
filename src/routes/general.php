@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [Home::class, 'page'])->name('home');
 
 Route::get('/works', [Works::class, 'page'])->name('works');
+Route::get('/works/{page_name}', [Works::class, 'info'])->name('work');
 
 Route::get('/about', [About::class, 'page'])->name('about');
 

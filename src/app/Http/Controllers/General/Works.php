@@ -12,7 +12,15 @@ class Works extends BaseController
 
     public function page()
     {
-        return view('General.works', ['jsonData' => $this->getWorksJson()]);
+        $works = $this->getWorksJson();
+        return view('General.works', compact('works'));
+    }
+
+    public function info($page_name)
+    {
+        $work = $this->getWork($page_name);
+        dd($work);
+        return view('General.work', compact('work'));
     }
 
     private function getWorksJson()
@@ -22,5 +30,14 @@ class Works extends BaseController
         $json = mb_convert_encoding($json, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN');
         $object = json_decode($json, true);
         return $object;
+    }
+
+    private function getWork($page_name)
+    {
+        $works = $this->getWorksJson();
+        $works = array_filter($works, function ($data) {
+            return $data["works"];
+        });
+        $works = iterator_to_array($works, false);
     }
 }
