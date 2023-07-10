@@ -21,7 +21,10 @@
       <li class="slider-cell">
         <a href="{{ asset('works/'.$w['page']) }}">
           <img src="{{ asset('image/works/'.$w['page'].'.png') }}">
-          <div>{{ $w['title'] }}</div>
+          <div>
+            <span>{{ $w['workType'] }}</span>
+            <span>{{ $w['title'] }}</span>
+          </div>
         </a>
       </li>
       @endforeach

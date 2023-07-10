@@ -20,6 +20,7 @@
             img {
                 position: absolute;
                 width: 100%;
+                height: 100%;
                 transition: 0.25s;
                 border-radius: 15%;
                 -webkit-clip-path: inset(0);
@@ -28,11 +29,13 @@
             }
 
             div {
-                font-size: 1.75em;
+                font-size: 2em;
                 font-weight: bold;
                 position: absolute;
                 top: 50%;
                 left: 50%;
+                display: flex;
+                flex-direction: column;
                 width: 100%;
                 transition: 0.25s;
                 transform: translate(-50%, -50%);
@@ -42,6 +45,9 @@
                 text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000,
                     1px -1px 0 #000, 0 1px 0 #000, 0-1px 0 #000, -1px 0 0 #000,
                     1px 0 0 #000;
+                span {
+                    margin: 1vh 2.5vh;
+                }
             }
 
             &:hover {
