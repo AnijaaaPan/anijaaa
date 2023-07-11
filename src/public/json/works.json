@@ -3,6 +3,15 @@
         "works": [
             {
                 "page": "vcc-bot",
+                "page_info": {
+                    "description": "自動的にDiscordのVCを作成してくれるBOT。\nどんな大規模なサーバーでも迅速なVCをサポートします。",
+                    "fields": [
+                        {
+                            "key": "Discord BOT",
+                            "value": "https://discord.com/api/oauth2/authorize?client_id=1124616218167492658&permissions=8&scope=bot"
+                        }
+                    ]
+                },
                 "projectTools": ["TypeScript", "Redis"],
                 "title": "vcc",
                 "workType": "依頼"

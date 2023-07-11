@@ -19,7 +19,6 @@ class Works extends BaseController
     public function info($page_name)
     {
         $work = $this->getWork($page_name);
-        dd($work);
         return view('General.work', compact('work'));
     }
 
@@ -35,9 +34,19 @@ class Works extends BaseController
     private function getWork($page_name)
     {
         $works = $this->getWorksJson();
-        $works = array_filter($works, function ($data) {
+        $works = array_map(function ($data) {
             return $data["works"];
+        }, $works);
+
+        $works = collect($works)->flatten(1)->toArray();
+        $works = array_filter($works, function ($data) use ($page_name) {
+            return $data["page"] == $page_name;
         });
-        $works = iterator_to_array($works, false);
+
+        $works = array_values($works);
+        if (count($works) === 0) {
+            return abort(404);
+        }
+        return $works[0];
     }
 }

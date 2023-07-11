@@ -16,7 +16,6 @@
       <p class="textBox">
         今日も今日とて、僕は僕。<br>
         2016年の中学2年次に趣味でプログラミングを始める。<br>
-        最近プログラミングが楽しいのか辛いのか分からなくなってきた。
       </p>
       <div class="profileBox cf">
         <p class="imgFace profileBoxLeft"><img src="{{ asset('/image/takuto.png') }}" alt="1番写りが良かったので採用した写真"></p>
@@ -42,7 +41,7 @@
     </section>
   </div>
 
-  <h1 class="h1">扱えるスキル</h1>
+  <h1 class="h1">扱えるツール</h1>
 
   <ul id="programming-languages">
     <li>
@@ -147,6 +146,14 @@
           <i class="fab fa-java"></i>
         </div>
         <span>Java (少々)</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://laravel.com/">
+        <div class="button bg-laravel">
+          <i class="fab fa-laravel"></i>
+        </div>
+        <span>Laravel</span>
       </a>
     </li>
   </ul>
