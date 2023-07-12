@@ -14,6 +14,7 @@ export default defineConfig({
                 "resources/scss/about.scss",
                 "resources/scss/contact.scss",
                 "resources/scss/works.scss",
+                "resources/scss/work.scss",
             ],
             refresh: true,
         }),

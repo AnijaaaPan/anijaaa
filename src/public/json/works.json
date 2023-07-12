@@ -8,7 +8,7 @@
                     "fields": [
                         {
                             "key": "Discord BOT",
-                            "value": "https://discord.com/api/oauth2/authorize?client_id=1124616218167492658&permissions=8&scope=bot"
+                            "value": "<a href='https://discord.com/api/oauth2/authorize?client_id=1124616218167492658&permissions=8&scope=bot'>招待URL</a>"
                         }
                     ]
                 },
@@ -18,24 +18,84 @@
             },
             {
                 "page": "omenko",
+                "page_info": {
+                    "description": "大学のオリジナルゲーム広告を創る課題で作成しました。\n短期間でクオリティが良い物を作れるゲームをフル回転で考えました。\nその結果、日本の象徴である『めんこ』を題材にすることにしました。",
+                    "youtube": ["https://www.youtube.com/embed/Oel5DiEyQ8U"]
+                },
                 "projectTools": ["C#", "Unity"],
                 "title": "OMENKO",
                 "workType": "大学制作課題"
             },
             {
                 "page": "aichat-bot",
+                "page_info": {
+                    "description": "Discord上でChatGPTと話せるサービス。\n自分好みのキャラを設定することが出来ます。",
+                    "fields": [
+                        {
+                            "key": "WEB",
+                            "value": "<a href='https://discord-ai-chat.com/'>Webサイト</a>"
+                        },
+                        {
+                            "key": "Discord Support",
+                            "value": "<a href='https://discord.gg/5Gp8CRDTCu'>サポートサーバー</a>"
+                        },
+                        {
+                            "key": "Discord BOT",
+                            "value": "<a href='https://discord.com/api/oauth2/authorize?client_id=1091400932975190046&permissions=8&scope=bot'>招待URL</a>"
+                        }
+                    ],
+                    "youtube": ["https://www.youtube.com/embed/K5SAetResOE"]
+                },
                 "projectTools": ["Laravel", "Mysql", "Redis", "TypeScript"],
                 "title": "Aichat",
                 "workType": "自主制作"
             },
             {
                 "page": "vscord-bot",
+                "page_info": {
+                    "description": "対戦相手を自動選択する対戦マッチングDiscord BOT。\nDiscordサーバーに高度な対戦機能を追加しよう。",
+                    "fields": [
+                        {
+                            "key": "WEB",
+                            "value": "<a href='https://vscord.net/'>Webサイト</a>"
+                        },
+                        {
+                            "key": "Twitter",
+                            "value": "<a href='https://twitter.com/vscordnet/'>Twitter</a>"
+                        },
+                        {
+                            "key": "Discord Support",
+                            "value": "<a href='https://discord.gg/Rm2NBRZ34G'>サポートサーバー</a>"
+                        },
+                        {
+                            "key": "Discord BOT",
+                            "value": "<a href='https://discord.com/api/oauth2/authorize?client_id=1078870576157966338&permissions=8&scope=bot'>招待URL</a>"
+                        }
+                    ],
+                    "youtube": [
+                        "https://www.youtube.com/embed/wU31cNqAXmw",
+                        "https://www.youtube.com/embed/Dvx_hPXSwts"
+                    ]
+                },
                 "projectTools": ["PostgreSQL", "Redis", "TypeScript"],
                 "title": "Vscord",
                 "workType": "依頼"
             },
             {
                 "page": "bitconusi-bot",
+                "page_info": {
+                    "description": "Bitconusiさん専用のBOT",
+                    "fields": [
+                        {
+                            "key": "Twitter",
+                            "value": "<a href='https://twitter.com/bitconusi/'>Twitter</a>"
+                        },
+                        {
+                            "key": "Discord Support",
+                            "value": "<a href='https://discord.gg/SPtgyrQH'>サポートサーバー</a>"
+                        }
+                    ]
+                },
                 "projectTools": ["TypeScript"],
                 "title": "コヌシBOT",
                 "workType": "依頼"
@@ -46,25 +106,72 @@
     {
         "works": [
             {
-                "page": "tabtok",
-                "projectTools": ["Laravel", "PHP", "Redis", "TypeScript"],
-                "title": "Tabtok",
-                "workType": "大学制作課題"
-            },
-            {
                 "page": "nkodice",
+                "page_info": {
+                    "description": "大学のゲーム制作2回目。\n制作課題内容は3Dゲームの再現。\n10日しか制作期間が無かったのですが、上手く再現できました。",
+                    "fields": [
+                        {
+                            "key": "ゲーム内容",
+                            "value": "<a href='/pdf/nkodice.pdf'>PDF</a>"
+                        }
+                    ],
+                    "youtube": ["https://www.youtube.com/embed/pNsls1AHoGc"]
+                },
                 "projectTools": ["C#", "Unity"],
                 "title": "NKODICE",
                 "workType": "大学制作課題"
             },
             {
                 "page": "vampire-survivor-x-minecraft",
+                "page_info": {
+                    "description": "大学のゲーム制作1回目。\n制作課題内容は2Dゲームの再現。\n気合い入れて2-3ヵ月かけて作成しました。\n上手く再現できました。",
+                    "fields": [
+                        {
+                            "key": "ゲーム内容",
+                            "value": "<a href='/pdf/vampire-survivor-x-minecraft.pdf'>PDF</a>"
+                        }
+                    ],
+                    "youtube": [""]
+                },
                 "projectTools": ["C#", "Unity"],
                 "title": "Vampire-Survivor x MineCraft",
                 "workType": "大学制作課題"
             },
             {
                 "page": "gamewith-discord-support-bot",
+                "page_info": {
+                    "description": "株式会社GamewithのDiscordをサポートするBOTを作成しました。\n関連して様々な公式Discordサーバーも運用させていただいております。",
+                    "fields": [
+                        {
+                            "key": "WEB",
+                            "value": "<a href='https://gamewith.jp/gamedb/article/show/321666?from=ios'>Webサイト</a>"
+                        },
+                        {
+                            "key": "GameWith",
+                            "value": "<a href='https://discord.gg/gamewith'>サポートサーバー</a>"
+                        },
+                        {
+                            "key": "Tower of Fantasy（幻塔）",
+                            "value": "<a href='https://discord.gg/tofjp'>サポートサーバー</a>"
+                        },
+                        {
+                            "key": "Echocalypse -緋紅の神約-",
+                            "value": "<a href='https://discord.gg/F2w5bQD8cy'>サポートサーバー</a>"
+                        },
+                        {
+                            "key": "Undawn（アンドーン）",
+                            "value": "<a href='https://discord.gg/pbnM2wcjbz'>サポートサーバー</a>"
+                        },
+                        {
+                            "key": "ミステリーレコード",
+                            "value": "<a href='https://discord.gg/NzrDf9Xkeh'>サポートサーバー</a>"
+                        },
+                        {
+                            "key": "ゴールドラッシュバトラー",
+                            "value": "<a href='https://discord.gg/y9K4wSTgUJ'>サポートサーバー</a>"
+                        }
+                    ]
+                },
                 "projectTools": ["Javascript", "Redis"],
                 "title": "Gamewith Discord Support BOT",
                 "workType": "業務委託"
@@ -76,6 +183,36 @@
         "works": [
             {
                 "page": "tao-ver-1",
+                "page_info": {
+                    "description": "約3年半続いたチャットMMORPGゲームです\n停電時にPCが破壊され終了しました；；\n現在性懲りもなくVer.2を作成中です。",
+                    "fields": [
+                        {
+                            "key": "Twitter",
+                            "value": "<a href='https://twitter.com/Discord_TAO/'>Twitter</a>"
+                        },
+                        {
+                            "key": "WEB",
+                            "value": "<a href='https://taogames.net/'>WEBサイト</a>"
+                        },
+                        {
+                            "key": "Discord Support",
+                            "value": "<a href='https://discord.gg/tao'>サポートサーバー</a>"
+                        },
+                        {
+                            "key": "Discord BOT",
+                            "value": "<a href='https://discord.com/oauth2/authorize?client_id=526620171658330112&permissions=3533888&scope=bot'>招待URL</a>"
+                        },
+                        {
+                            "key": "最終ユーザー数",
+                            "value": "約35,000人"
+                        },
+                        {
+                            "key": "平均アクティブ数 / 日",
+                            "value": "500人"
+                        }
+                    ],
+                    "youtube": ["https://www.youtube.com/embed/T66JUY57hqI"]
+                },
                 "projectTools": [
                     "Javascript",
                     "Laravel",

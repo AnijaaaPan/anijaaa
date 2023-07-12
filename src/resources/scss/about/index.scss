@@ -18,6 +18,7 @@
     .textBox {
         font-size: unset;
         margin-bottom: 30px;
+        text-align: center;
     }
 
     .imgFace {
@@ -33,20 +34,23 @@
 
     div.profileBoxRight .profile {
         font-size: 13px;
-        width: 80%;
-        margin: auto;
-        margin-bottom: 30px;
         dt {
             font-weight: bold;
             display: block;
             float: left;
-            width: 30%;
+            margin-right: min(1.75vh, 2.25vw);
         }
 
         dd {
             font-size: 13px;
-            width: 70%;
-            margin-left: 30%;
+
+            a {
+                text-decoration: none;
+                color: #0000ff;
+                &:hover {
+                    color: #ff0000;
+                }
+            }
         }
     }
 }
@@ -115,7 +119,6 @@
 
                     dd {
                         font-size: large;
-                        width: 80%;
                     }
                 }
             }

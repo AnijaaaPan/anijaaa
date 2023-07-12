@@ -5,6 +5,7 @@
 
 @section('add-scss')
 @vite(['resources/scss/about.scss'])
+@vite(['resources/scss/work.scss'])
 @endsection
 
 @section('content')
@@ -13,7 +14,9 @@
 
   <div id="main" class="inner">
     <section class="contentBox cf">
+      @if (isset($work["page_info"]))
       <p class="textBox">{!! nl2br(e($work["page_info"]["description"])) !!}</p>
+      @endif
 
       <div class="profileBox cf">
         <p class="imgFace profileBoxLeft"><img src="{{ asset('image/works/'.$work['page'].'.png') }}"></p>
@@ -21,20 +24,36 @@
           <dl class="profile cf">
             <dt>種類:</dt>
             <dd>{{ $work["workType"] }}</dd>
+            <br>
             <dt>タイトル:</dt>
             <dd>{{ $work["title"] }}</dd>
 
+            @if (isset($work["page_info"]) && isset($work["page_info"]["fields"]))
             @foreach ($work["page_info"]["fields"] as $d)
+            <br>
             <dt>{{ $d["key"] }}:</dt>
-            <dd>{{ $d["value"] }}</dd>
+            <dd><?php echo $d["value"]; ?></dd>
             @endforeach
+            @endif
           </dl>
         </div>
       </div>
     </section>
   </div>
 
-  <h1 class="h1">使用したツール</h1>
+  @if (isset($work["page_info"]) && isset($work["page_info"]["youtube"]))
+  @foreach ($work["page_info"]["youtube"] as $url)
+  <h1 class="h1">Youtube</h1>
+
+  <div class="youtube">
+    <iframe width="560" height="315" src="{{ $url }}" frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  @endforeach
+  @endif
+
+  @if (isset($work['projectTools']))
+  <h1 class=" h1">使用したツール</h1>
 
   <ul id="programming-languages">
     @if (in_array('Python', $work['projectTools']))
@@ -147,6 +166,7 @@
     </li>
     @endif
   </ul>
+  @endif
 </main>
 @endsection
 
