@@ -1,9 +1,28 @@
-@keyframes slideHeader {
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@-webkit-keyframes slideHeader {
     0% {
+        -webkit-transform: translateX(0%);
         transform: translateX(0%);
     }
-
     to {
+        -webkit-transform: translateX(-25%);
+        transform: translateX(-25%);
+    }
+}
+
+@keyframes slideHeader {
+    0% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+    to {
+        -webkit-transform: translateX(-25%);
         transform: translateX(-25%);
     }
 }
@@ -12,9 +31,22 @@
     width: 150%;
     height: 7.5vh;
 
+    -webkit-animation: slideHeader 20s linear infinite;
     animation: slideHeader 20s linear infinite;
 
     background: #fff;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        color-stop(33%, black),
+        color-stop(0%, rgba(255, 255, 255, 0))
+    );
+    background-image: -o-linear-gradient(
+        left,
+        black 33%,
+        rgba(255, 255, 255, 0) 0%
+    );
     background-image: linear-gradient(
         to right,
         black 33%,
@@ -32,6 +64,7 @@
     left: 0;
 
     background-position: bottom !important;
+    -webkit-box-shadow: 5px 2.5px 2.5px gray;
     box-shadow: 5px 2.5px 2.5px gray;
 
     @include sliderHr;
@@ -41,6 +74,7 @@
     position: absolute;
 
     background-position: top !important;
+    -webkit-box-shadow: 0 -1px 1px 1px gray;
     box-shadow: 0 -1px 1px 1px gray;
 
     @include sliderHr;

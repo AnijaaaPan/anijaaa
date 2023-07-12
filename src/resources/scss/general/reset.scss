@@ -1,11 +1,3 @@
-/*
-html5doctor.com Reset Stylesheet
-v1.6.1
-Last Updated: 2010-09-17
-Author: Richard Clark - http://richclarkdesign.com
-Twitter: @rich_clark
-*/
-
 html,
 body,
 div,
@@ -84,10 +76,12 @@ video {
     background: transparent;
 }
 
+// Set line height of body
 body {
     line-height: 1;
 }
 
+// Set elements to display:block
 article,
 aside,
 details,
@@ -102,10 +96,12 @@ section {
     display: block;
 }
 
+// Remove default list styles
 nav ul {
     list-style: none;
 }
 
+// Remove default quotes
 blockquote,
 q {
     quotes: none;
@@ -119,6 +115,7 @@ q:after {
     content: none;
 }
 
+// Remove default link styles
 a {
     font-size: 100%;
     margin: 0;
@@ -127,14 +124,14 @@ a {
     background: transparent;
 }
 
-/* change colours to suit your needs */
+// Add styles for inserted text
 ins {
     text-decoration: none;
     color: #000;
     background-color: #ff9;
 }
 
-/* change colours to suit your needs */
+// Add styles for marked text
 mark {
     font-weight: bold;
     font-style: italic;
@@ -142,22 +139,25 @@ mark {
     background-color: #ff9;
 }
 
+// Add styles for deleted text
 del {
     text-decoration: line-through;
 }
 
+// Add styles for abbreviations and definitions
 abbr[title],
 dfn[title] {
     cursor: help;
     border-bottom: 1px dotted;
 }
 
+// Reset table styles
 table {
     border-spacing: 0;
     border-collapse: collapse;
 }
 
-/* change border colour to suit your needs */
+// Add default hr styles
 hr {
     display: block;
     height: 1px;
@@ -167,6 +167,7 @@ hr {
     border-top: 1px solid #ccc;
 }
 
+// Align input and select elements vertically
 input,
 select {
     vertical-align: middle;

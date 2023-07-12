@@ -3,6 +3,8 @@
     right: 0;
     left: 0;
 
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 
     width: 100%;
@@ -32,15 +34,25 @@
 }
 
 nav.inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
     align-items: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 
     margin: 0 auto;
+
     ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
 
         list-style-type: none;
+
         li a {
             text-decoration: none;
 
@@ -71,13 +83,11 @@ nav.inner {
 @media screen and (max-width: 1000px) {
     nav.inner {
         width: 100%;
-
         ul {
             width: 100%;
 
             li {
                 margin: auto;
-
                 a {
                     p {
                         display: none;

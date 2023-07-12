@@ -131,7 +131,7 @@
                             "value": "<a href='/pdf/vampire-survivor-x-minecraft.pdf'>PDF</a>"
                         }
                     ],
-                    "youtube": [""]
+                    "youtube": ["https://www.youtube.com/embed/Re_KfBOj03E"]
                 },
                 "projectTools": ["C#", "Unity"],
                 "title": "Vampire-Survivor x MineCraft",
