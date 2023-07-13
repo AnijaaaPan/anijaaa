@@ -12,6 +12,6 @@ class About extends BaseController
 
     public function page()
     {
-        return view('General.About');
+        return view('General.about');
     }
 }
