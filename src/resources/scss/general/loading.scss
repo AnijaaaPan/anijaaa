@@ -65,7 +65,6 @@
     width: 100vw;
     height: 100vh;
     color: #fff;
-    background: #f8f8ff;
     #wrapper {
         position: absolute;
         top: 50%;
@@ -74,7 +73,6 @@
         transform: translate(-50%, -50%);
         .circle {
             position: absolute;
-            top: 42.5px;
             left: -37.5%;
             width: 50px;
             height: 50px;
@@ -84,12 +82,12 @@
 
         .circle:nth-child(2) {
             left: 42.5%;
-            animation-delay: 0.1s;
+            animation-delay: 0.15s;
         }
 
         .circle:nth-child(3) {
             left: 122.5%;
-            animation-delay: 0.2s;
+            animation-delay: 0.3s;
         }
 
         .shadow {
@@ -108,12 +106,12 @@
 
         .shadow:nth-child(4) {
             left: 42.5%;
-            animation-delay: 0.1s;
+            animation-delay: 0.15s;
         }
 
         .shadow:nth-child(5) {
             left: 122.5%;
-            animation-delay: 0.2s;
+            animation-delay: 0.3s;
         }
     }
 
@@ -123,9 +121,7 @@
         position: absolute;
         top: 30%;
         left: 50%;
-        width: 100%;
         transform: translate(-50%, -50%);
-        text-align: center;
         text-decoration: underline dotted;
         color: #000;
     }
@@ -133,7 +129,6 @@
 
 #forever-loading {
     width: auto;
-    background: none;
 }
 
 #loading.completed {
@@ -149,7 +144,6 @@
             width: 30vw;
 
             .circle {
-                top: 50px;
                 width: 35px;
                 height: 35px;
                 animation: bounce-phone 1s alternate infinite ease,
