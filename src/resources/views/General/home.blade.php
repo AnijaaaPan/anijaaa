@@ -25,7 +25,7 @@
   </div>
 
   <a class="twitter-timeline" data-lang="ja" href="https://twitter.com/Anijaaatakoyaki?ref_src=twsrc%5Etfw"
-    aria-label="Twitter Timeline"></a>
+    aria-label="Twitter Timeline" target="_blank" rel="noopener noreferrer"></a>
 </main>
 @endsection
 

@@ -58,7 +58,7 @@
   <ul id="programming-languages">
     @if (in_array('Python', $work['projectTools']))
     <li>
-      <a href="https://python.org">
+      <a href="https://python.org" target="_blank" rel="noopener noreferrer">
         <div class="button bg-python">
           <i class="fab fa-python"></i>
         </div>
@@ -69,7 +69,7 @@
 
     @if (in_array('Javascript', $work['projectTools']))
     <li>
-      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
         <div class="button bg-javascript">
           <i class="fab fa-js-square"></i>
         </div>
@@ -80,7 +80,7 @@
 
     @if (in_array('TypeScript', $work['projectTools']))
     <li>
-      <a href="https://www.typescriptlang.org/">
+      <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">
         <div class="button bg-typescript">
           <i class="fab fa-js-square"></i>
         </div>
@@ -91,7 +91,7 @@
 
     @if (in_array('C#', $work['projectTools']))
     <li>
-      <a href="https://www.microsoft.com/net">
+      <a href="https://www.microsoft.com/net" target="_blank" rel="noopener noreferrer">
         <div class="button bg-csharp">
           <i class="fab fa-microsoft"></i>
         </div>
@@ -102,7 +102,7 @@
 
     @if (in_array('PHP', $work['projectTools']))
     <li>
-      <a href="https://www.php.net/">
+      <a href="https://www.php.net/" target="_blank" rel="noopener noreferrer">
         <div class="button bg-php">
           <i class="fab fa-php"></i>
         </div>
@@ -113,7 +113,7 @@
 
     @if (in_array('Mysql', $work['projectTools']))
     <li>
-      <a href="https://www.mysql.com/">
+      <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer">
         <div class="button bg-mysql">
           <i class="fas fa-database"></i>
         </div>
@@ -124,7 +124,7 @@
 
     @if (in_array('PostgreSQL', $work['projectTools']))
     <li>
-      <a href="https://www.postgresql.org/">
+      <a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer">
         <div class="button bg-postgresql">
           <i class="fas fa-database"></i>
         </div>
@@ -135,7 +135,7 @@
 
     @if (in_array('Redis', $work['projectTools']))
     <li>
-      <a href="https://redis.io/">
+      <a href="https://redis.io/" target="_blank" rel="noopener noreferrer">
         <div class="button bg-redis">
           <i class="fas fa-database"></i>
         </div>
@@ -146,7 +146,7 @@
 
     @if (in_array('Unity', $work['projectTools']))
     <li>
-      <a href="https://unity.com/">
+      <a href="https://unity.com/" target="_blank" rel="noopener noreferrer">
         <div class="button bg-unity">
           <i class="fab fa-unity"></i>
         </div>
@@ -157,7 +157,7 @@
 
     @if (in_array('Laravel', $work['projectTools']))
     <li>
-      <a href="https://laravel.com/">
+      <a href="https://laravel.com/" target="_blank" rel="noopener noreferrer">
         <div class="button bg-laravel">
           <i class="fab fa-laravel"></i>
         </div>

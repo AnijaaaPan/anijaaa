@@ -10,28 +10,28 @@
 <link rel="stylesheet" href="{{ asset('/css/sweetalert2.min.css') }}">
 
 <style>
-  .swal2-popup {
-    width: 85vw;
-    background: #2f3136;
-    margin: 7.5vh 0;
-  }
+.swal2-popup {
+  width: 85vw;
+  background: #2f3136;
+  margin: 7.5vh 0;
+}
 
-  .swal2-title {
-    color: #d9d9d9;
-    border: none;
-  }
+.swal2-title {
+  color: #d9d9d9;
+  border: none;
+}
 
-  .swal2-html-container {
-    color: #d9d9d9;
-  }
+.swal2-html-container {
+  color: #d9d9d9;
+}
 
-  .swal2-icon-error {
-    border: 1px solid #f27474;
-  }
+.swal2-icon-error {
+  border: 1px solid #f27474;
+}
 
-  .swal2-icon-success {
-    border: 1px solid #a5dc86;
-  }
+.swal2-icon-success {
+  border: 1px solid #a5dc86;
+}
 </style>
 @endif
 @endsection
@@ -83,27 +83,29 @@
 
   <ul id="sns">
     <li>
-      <a href="https://twitter.com/Anijaaatakoyaki" class="button bg-twitter">
+      <a href="https://twitter.com/Anijaaatakoyaki" class="button bg-twitter" target="_blank" rel="noopener noreferrer">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
-      <a href="https://instagram.com/tikutaku.py/" class="button bg-instagram">
+      <a href="https://instagram.com/tikutaku.py/" class="button bg-instagram" target="_blank"
+        rel="noopener noreferrer">
         <i class="fab fa-instagram"></i>
       </a>
     </li>
     <li>
-      <a href="https://facebook.com/AnijaaaPan" class="button bg-facebook">
+      <a href="https://facebook.com/AnijaaaPan" class="button bg-facebook" target="_blank" rel="noopener noreferrer">
         <i class="fab fa-facebook"></i>
       </a>
     </li>
     <li>
-      <a href="https://github.com/AnijaaaPan" class="button bg-github">
+      <a href="https://github.com/AnijaaaPan" class="button bg-github" target="_blank" rel="noopener noreferrer">
         <i class="fab fa-github"></i>
       </a>
     </li>
     <li>
-      <a href="https://discord.com/users/304932786286886912" class="button bg-discord">
+      <a href="https://discord.com/users/304932786286886912" class="button bg-discord" target="_blank"
+        rel="noopener noreferrer">
         <i class="fab fa-discord"></i>
       </a>
     </li>
@@ -120,21 +122,21 @@
 
 @if (isset($completed))
 <script>
-  Swal.fire(
-    '※送信しました',
-    '{{ $completed }}',
-    'success'
-  )
+Swal.fire(
+  '※送信しました',
+  '{{ $completed }}',
+  'success'
+)
 </script>
 @endif
 
 @if (isset($unknownRequired))
 <script>
-  Swal.fire(
-    '※エラーが発生しました',
-    '{{ $unknownRequired }}',
-    'error'
-  )
+Swal.fire(
+  '※エラーが発生しました',
+  '{{ $unknownRequired }}',
+  'error'
+)
 </script>
 @endif
 @endsection

@@ -54,7 +54,7 @@
 
   <ul id="programming-languages">
     <li>
-      <a href="https://python.org">
+      <a href="https://python.org" target="_blank" rel="noopener noreferrer">
         <div class="button bg-python">
           <i class="fab fa-python"></i>
         </div>
@@ -62,7 +62,7 @@
       </a>
     </li>
     <li>
-      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
         <div class="button bg-javascript">
           <i class="fab fa-js-square"></i>
         </div>
@@ -70,7 +70,7 @@
       </a>
     </li>
     <li>
-      <a href="https://www.typescriptlang.org/">
+      <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">
         <div class="button bg-typescript">
           <i class="fab fa-js-square"></i>
         </div>
@@ -78,7 +78,7 @@
       </a>
     </li>
     <li>
-      <a href="https://www.microsoft.com/net">
+      <a href="https://www.microsoft.com/net" target="_blank" rel="noopener noreferrer">
         <div class="button bg-csharp">
           <i class="fab fa-microsoft"></i>
         </div>
@@ -86,7 +86,7 @@
       </a>
     </li>
     <li>
-      <a href="https://www.php.net/">
+      <a href="https://www.php.net/" target="_blank" rel="noopener noreferrer">
         <div class="button bg-php">
           <i class="fab fa-php"></i>
         </div>
@@ -94,7 +94,7 @@
       </a>
     </li>
     <li>
-      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">
         <div class="button bg-html">
           <i class="fab fa-html5"></i>
         </div>
@@ -102,7 +102,7 @@
       </a>
     </li>
     <li>
-      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer">
         <div class="button bg-css">
           <i class="fab fa-css3-alt"></i>
         </div>
@@ -110,7 +110,7 @@
       </a>
     </li>
     <li>
-      <a href="https://www.mysql.com/">
+      <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer">
         <div class="button bg-mysql">
           <i class="fas fa-database"></i>
         </div>
@@ -118,7 +118,7 @@
       </a>
     </li>
     <li>
-      <a href="https://www.postgresql.org/">
+      <a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer">
         <div class="button bg-postgresql">
           <i class="fas fa-database"></i>
         </div>
@@ -126,7 +126,7 @@
       </a>
     </li>
     <li>
-      <a href="https://redis.io/">
+      <a href="https://redis.io/" target="_blank" rel="noopener noreferrer">
         <div class="button bg-redis">
           <i class="fas fa-database"></i>
         </div>
@@ -134,7 +134,7 @@
       </a>
     </li>
     <li>
-      <a href="https://unity.com/">
+      <a href="https://unity.com/" target="_blank" rel="noopener noreferrer">
         <div class="button bg-unity">
           <i class="fab fa-unity"></i>
         </div>
@@ -142,7 +142,7 @@
       </a>
     </li>
     <li>
-      <a href="https://www.cplusplus.com/">
+      <a href="https://www.cplusplus.com/" target="_blank" rel="noopener noreferrer">
         <div class="button bg-cplusplus">
           <i class="fas fa-code"></i>
         </div>
@@ -150,7 +150,7 @@
       </a>
     </li>
     <li>
-      <a href="https://www.java.com/">
+      <a href="https://www.java.com/" target="_blank" rel="noopener noreferrer">
         <div class="button bg-java">
           <i class="fab fa-java"></i>
         </div>
@@ -158,7 +158,7 @@
       </a>
     </li>
     <li>
-      <a href="https://laravel.com/">
+      <a href="https://laravel.com/" target="_blank" rel="noopener noreferrer">
         <div class="button bg-laravel">
           <i class="fab fa-laravel"></i>
         </div>
@@ -171,27 +171,29 @@
 
   <ul id="sns">
     <li>
-      <a href="https://twitter.com/Anijaaatakoyaki" class="button bg-twitter">
+      <a href="https://twitter.com/Anijaaatakoyaki" class="button bg-twitter" target="_blank" rel="noopener noreferrer">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
-      <a href="https://instagram.com/tikutaku.py/" class="button bg-instagram">
+      <a href="https://instagram.com/tikutaku.py/" class="button bg-instagram" target="_blank"
+        rel="noopener noreferrer">
         <i class="fab fa-instagram"></i>
       </a>
     </li>
     <li>
-      <a href="https://facebook.com/AnijaaaPan" class="button bg-facebook">
+      <a href="https://facebook.com/AnijaaaPan" class="button bg-facebook" target="_blank" rel="noopener noreferrer">
         <i class="fab fa-facebook"></i>
       </a>
     </li>
     <li>
-      <a href="https://github.com/AnijaaaPan" class="button bg-github">
+      <a href="https://github.com/AnijaaaPan" class="button bg-github" target="_blank" rel="noopener noreferrer">
         <i class="fab fa-github"></i>
       </a>
     </li>
     <li>
-      <a href="https://discord.com/users/304932786286886912" class="button bg-discord">
+      <a href="https://discord.com/users/304932786286886912" class="button bg-discord" target="_blank"
+        rel="noopener noreferrer">
         <i class="fab fa-discord"></i>
       </a>
     </li>
