@@ -10,6 +10,7 @@
 <link rel="canonical" href="https://anijaaa.com/@yield('canonical')">
 
 <meta name="name" content="兄じゃぁぁぁ - Portfolio">
+<meta name="google-site-verification" content="eeBO81Flc4GjJo6JQa_8Uksqw933OSrc0KT6VABHtG8" />
 <meta name="application-name" content="兄じゃぁぁぁ - Portfolio">
 <meta name="author" content="兄じゃぁぁぁ">
 <meta name="description" content="@yield('description')">
