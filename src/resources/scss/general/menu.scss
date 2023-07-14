@@ -4,7 +4,9 @@
     left: 0;
 
     display: -webkit-box;
+    display: -moz-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
 
     width: 100%;
@@ -35,20 +37,28 @@
 
 nav.inner {
     display: -webkit-box;
+    display: -moz-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
     align-items: center;
     -ms-flex-align: center;
     -webkit-box-pack: justify;
+    -moz-box-pack: justify;
     -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
     justify-content: space-between;
 
     margin: 0 auto;
 
     ul {
         display: -webkit-box;
+        display: -moz-box;
         display: -ms-flexbox;
+        display: -webkit-flex;
         display: flex;
 
         list-style-type: none;

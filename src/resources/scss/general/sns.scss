@@ -1,6 +1,10 @@
 //共通スタイルを定義
 .common-properties {
-    display: flex;
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox; /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Chrome */
+    display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
     justify-content: space-around;
     max-width: 750px;
     margin: auto;
@@ -14,6 +18,7 @@
     display: inline-block;
     width: 50px;
     height: 50px;
+    -webkit-transition: 0.5s; /* Safari */
     transition: 0.5s;
     text-decoration: none;
     color: #fff !important;
@@ -22,11 +27,15 @@
         position: absolute;
         top: 50%;
         left: 50%;
+        -ms-transform: translate(-50%, -50%); /* IE 9 */
+        -webkit-transform: translate(-50%, -50%); /* Safari */
         transform: translate(-50%, -50%);
         color: white;
     }
 
     &:hover {
+        -ms-transform: translateY(-5px); /* IE 9 */
+        -webkit-transform: translateY(-5px); /* Safari */
         transform: translateY(-5px);
     }
 }
@@ -47,6 +56,11 @@
 
         a.bg-instagram {
             overflow: hidden;
+            background: -webkit-linear-gradient(
+                135deg,
+                #427eff 0%,
+                #f13f79 70%
+            ); /* For Safari 5.1 to 6.0 */
             background: linear-gradient(135deg, #427eff 0%, #f13f79 70%)
                 no-repeat;
             .fab.instagram {
@@ -60,6 +74,11 @@
                 width: 59px;
                 height: 40px;
                 content: "";
+                background: -webkit-radial-gradient(
+                    #ffdb2c 7%,
+                    rgba(255, 105, 34, 0.3) 60%,
+                    rgba(255, 88, 96, 0) 70%
+                ); /* For Safari 5.1 to 6.0 */
                 background: radial-gradient(
                     #ffdb2c 7%,
                     rgba(255, 105, 34, 0.3) 60%,
@@ -69,6 +88,11 @@
         }
 
         a.bg-facebook {
+            background: -webkit-linear-gradient(
+                to bottom,
+                #5c80c6 0%,
+                #34528c 74%
+            ); /* For Safari 5.1 to 6.0 */
             background: linear-gradient(to bottom, #5c80c6 0%, #34528c 74%);
             .fab.facebook {
                 font-size: 43px;
@@ -89,18 +113,29 @@
 }
 
 #programming-languages {
+    -webkit-flex-wrap: wrap; /* Safari 3.1-6 */
+    -ms-flex-wrap: wrap; /* IE 10 */
     flex-wrap: wrap;
 
     li {
-        display: flex;
+        display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+        display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+        display: -ms-flexbox; /* TWEENER - IE 10 */
+        display: -webkit-flex; /* NEW - Chrome */
+        display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
         align-items: center;
         flex: 1 0 30%;
         margin: 5px;
+        -webkit-transition: 0.5s; /* Safari */
         transition: 0.5s;
         border-radius: 15px;
         background: white;
         a {
-            display: flex;
+            display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+            display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+            display: -ms-flexbox; /* TWEENER - IE 10 */
+            display: -webkit-flex; /* NEW - Chrome */
+            display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
             width: 100%;
             white-space: nowrap;
             text-decoration: none;
@@ -144,6 +179,8 @@
         }
 
         &:hover {
+            -ms-transform: translateY(-5px); /* IE 9 */
+            -webkit-transform: translateY(-5px); /* Safari */
             transform: translateY(-5px);
         }
     }

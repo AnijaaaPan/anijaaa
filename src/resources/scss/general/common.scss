@@ -35,12 +35,10 @@
     animation: slideHeader 20s linear infinite;
 
     background: #fff;
-    background-image: -webkit-gradient(
-        linear,
-        left top,
-        right top,
-        color-stop(33%, black),
-        color-stop(0%, rgba(255, 255, 255, 0))
+    background-image: -webkit-linear-gradient(
+        left,
+        black 33%,
+        rgba(255, 255, 255, 0) 0%
     );
     background-image: -o-linear-gradient(
         left,

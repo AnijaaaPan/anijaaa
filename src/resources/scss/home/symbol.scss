@@ -11,6 +11,32 @@
     }
 }
 
+@-moz-keyframes svg {
+    0% {
+        fill: transparent;
+        stroke-dashoffset: 100%;
+    }
+    80% {
+        fill: transparent;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@-o-keyframes svg {
+    0% {
+        fill: transparent;
+        stroke-dashoffset: 100%;
+    }
+    80% {
+        fill: transparent;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
 @keyframes svg {
     0% {
         fill: transparent;
@@ -34,23 +60,22 @@ div#symbol {
 
         width: 75%;
 
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-
-        rotate: 3.5deg;
+        -webkit-transform: translate(-50%, -50%) rotate(3.5deg);
+        -ms-transform: translate(-50%, -50%) rotate(3.5deg);
+        transform: translate(-50%, -50%) rotate(3.5deg);
 
         svg {
             width: 100%;
             height: 30%;
 
-            -o-object-fit: cover;
             object-fit: cover;
             -webkit-filter: drop-shadow(0.25vh 0.25vh 0.15vh black);
             filter: drop-shadow(0.25vh 0.25vh 0.15vh black);
 
             path {
                 -webkit-animation: svg 2.5s ease-in both;
+                -moz-animation: svg 2.5s ease-in both;
+                -o-animation: svg 2.5s ease-in both;
                 animation: svg 2.5s ease-in both;
 
                 stroke: #111;

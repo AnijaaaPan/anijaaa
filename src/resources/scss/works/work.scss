@@ -1,13 +1,23 @@
 .youtube {
+    // for browsers that don't support aspect-ratio
+    position: relative;
+
     max-width: 75%;
     margin: auto;
+    padding-bottom: 56.25%; // 9 / 16 = 0.5625
+    // for browsers that support aspect-ratio
 
-    aspect-ratio: 16/9;
+    aspect-ratio: 16 / 9;
 
     iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+
         width: 100%;
         height: 100%;
 
+        -webkit-border-radius: 2.5vw; // for older webkit browsers
         border-radius: 2.5vw;
     }
 }
