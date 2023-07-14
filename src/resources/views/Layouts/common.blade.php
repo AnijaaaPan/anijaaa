@@ -4,6 +4,7 @@
 <head>
   @include('Parts.head')
 
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
   @vite(['resources/scss/app.scss'])
   @yield('add-scss')
 </head>
