@@ -68,11 +68,6 @@
 
     @media only screen and (min-width: 961px) {
         margin: 0;
-        #main.inner {
-            max-width: 960px;
-            margin: 0 auto;
-            padding: 0;
-        }
 
         .profileBox {
             width: 960px;
@@ -93,11 +88,6 @@
 
     @media only screen and (min-width: 760px) {
         margin: 0 40px;
-        #main.inner {
-            max-width: 960px;
-            margin: 0 auto;
-            padding: 0;
-        }
 
         .textBox {
             font-size: large;
@@ -139,5 +129,21 @@
                 }
             }
         }
+    }
+}
+
+@media only screen and (min-width: 961px) {
+    #main.inner {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 760px) {
+    #main.inner {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0;
     }
 }
