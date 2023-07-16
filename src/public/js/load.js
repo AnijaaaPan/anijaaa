@@ -7,9 +7,4 @@ function completeLoad() {
     if (loader) {
         loader.classList.add("completed");
     }
-
-    const foreverLoading = document.getElementById("forever-loading");
-    if (!foreverLoading) {
-        document.body.style.overflowY = "scroll";
-    }
 }
