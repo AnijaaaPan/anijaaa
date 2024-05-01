@@ -2,6 +2,40 @@
     {
         "works": [
             {
+                "page": "efil-bot",
+                "page_info": {
+                    "description": "FortniteのUEFNを盛り上げるために始動したEFILプロジェクトさん専用のBOT",
+                    "fields": [
+                        {
+                            "key": "Discord Support",
+                            "value": "<a href='https://discord.gg/SPCqPZHcuF'>サポートサーバー</a>"
+                        }
+                    ]
+                },
+                "projectTools": ["TypeScript", "Redis"],
+                "title": "efil",
+                "workType": "依頼"
+            },
+            {
+                "page": "honyaku-bot",
+                "page_info": {
+                    "description": "Discordが公式で用意している31言語を全て相互翻訳することが出来ます",
+                    "fields": [
+                        {
+                            "key": "Discord BOT",
+                            "value": "<a href='https://discord.com/oauth2/authorize?client_id=1176980194913943582&permissions=0&scope=applications.commands%20bot'>招待URL</a>"
+                        },
+                        {
+                            "key": "Github Repository",
+                            "value": "<a href='https://github.com/AnijaaaPan/Honyaku'>URL</a>"
+                        }
+                    ]
+                },
+                "projectTools": ["TypeScript", "Redis"],
+                "title": "honyaku",
+                "workType": "自主制作"
+            },
+            {
                 "page": "vcc-bot",
                 "page_info": {
                     "description": "自動的にDiscordのVCを作成してくれるBOT。\nどんな大規模なサーバーでも迅速なVCをサポートします。",
@@ -9,6 +43,10 @@
                         {
                             "key": "Discord BOT",
                             "value": "<a href='https://discord.com/api/oauth2/authorize?client_id=1124616218167492658&permissions=8&scope=bot'>招待URL</a>"
+                        },
+                        {
+                            "key": "Github Repository",
+                            "value": "<a href='https://github.com/AnijaaaPan/VCC'>URL</a>"
                         }
                     ]
                 },
@@ -20,6 +58,12 @@
                 "page": "omenko",
                 "page_info": {
                     "description": "大学のオリジナルゲーム広告を創る課題で作成しました。\n短期間でクオリティが良い物を作れるゲームをフル回転で考えました。\nその結果、日本の象徴である『めんこ』を題材にすることにしました。",
+                    "fields": [
+                        {
+                            "key": "Github Repository",
+                            "value": "<a href='https://github.com/AnijaaaPan/MENKO'>URL</a>"
+                        }
+                    ],
                     "youtube": ["https://www.youtube.com/embed/Oel5DiEyQ8U"]
                 },
                 "projectTools": ["C#", "Unity"],
@@ -113,6 +157,10 @@
                         {
                             "key": "ゲーム内容",
                             "value": "<a href='/pdf/nkodice.pdf'>PDF</a>"
+                        },
+                        {
+                            "key": "Github Repository",
+                            "value": "<a href='https://github.com/AnijaaaPan/NKODICE'>URL</a>"
                         }
                     ],
                     "youtube": ["https://www.youtube.com/embed/pNsls1AHoGc"]
@@ -129,6 +177,10 @@
                         {
                             "key": "ゲーム内容",
                             "value": "<a href='/pdf/vampire-survivor-x-minecraft.pdf'>PDF</a>"
+                        },
+                        {
+                            "key": "Github Repository",
+                            "value": "<a href='https://github.com/AnijaaaPan/Vampire-Survivor-x-MineCraft'>URL</a>"
                         }
                     ],
                     "youtube": ["https://www.youtube.com/embed/Re_KfBOj03E"]
