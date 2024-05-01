@@ -1,9 +1,35 @@
 [
     {
         "works": [{
+            "page": "tao-ver-2",
+            "page_info": {
+                "description": "再開発を約1年間行い、2023年11月にリニューアルオープンしました。\n使用言語やデータベース、クラウドサーバーを一新し、全てをゼロから再設計しました。\nその結果、以前に比べてバグが全く発生せず、より安定した運用を実現しました。",
+                "fields": [{
+                    "key": "Twitter",
+                    "value": "<a href='https://twitter.com/Discord_TAO/'>Twitter</a>"
+                }, {
+                    "key": "WEB",
+                    "value": "<a href='https://taogames.net/'>WEBサイト</a>"
+                }, {
+                    "key": "Discord Support",
+                    "value": "<a href='https://discord.gg/tao'>サポートサーバー</a>"
+                }, {
+                    "key": "Discord BOT",
+                    "value": "<a href='https://discord.com/oauth2/authorize?client_id=526620171658330112&permissions=3533888&scope=bot'>招待URL</a>"
+                }],
+                "youtube": ["https://www.youtube.com/embed/T66JUY57hqI"]
+            },
+            "projectTools": ["TypeScript", "Mysql"],
+            "title": "Tsukishima Art Online",
+            "workType": "自主制作"
+        }],
+        "year": "2023 - 2024"
+    },
+    {
+        "works": [{
             "page": "efil-bot",
             "page_info": {
-                "description": "FortniteのUEFNを盛り上げるために始動したEFILプロジェクトさん専用のBOT",
+                "description": "FortniteのUEFNを活性化させるために始動したEFILプロジェクト専用のBOT",
                 "fields": [{
                     "key": "Discord Support",
                     "value": "<a href='https://discord.gg/SPCqPZHcuF'>サポートサーバー</a>"
@@ -15,7 +41,7 @@
         }, {
             "page": "honyaku-bot",
             "page_info": {
-                "description": "Discordが公式で用意している31言語を全て相互翻訳することが出来ます",
+                "description": "Discordは公式に31言語をサポートし、それらを相互に翻訳することができます。",
                 "fields": [{
                     "key": "Discord BOT",
                     "value": "<a href='https://discord.com/oauth2/authorize?client_id=1176980194913943582&permissions=0&scope=applications.commands%20bot'>招待URL</a>"
@@ -30,7 +56,7 @@
         }, {
             "page": "vcc-bot",
             "page_info": {
-                "description": "自動的にDiscordのVCを作成してくれるBOT。\nどんな大規模なサーバーでも迅速なVCをサポートします。",
+                "description": "このBOTは自動でDiscordのボイスチャンネルを作成します。\nどのような大規模サーバーでも、迅速にボイスチャンネルをサポートします。",
                 "fields": [{
                     "key": "Discord BOT",
                     "value": "<a href='https://discord.com/api/oauth2/authorize?client_id=1124616218167492658&permissions=8&scope=bot'>招待URL</a>"
