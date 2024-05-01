@@ -19,7 +19,7 @@
                 }],
                 "youtube": ["https://www.youtube.com/embed/T66JUY57hqI"]
             },
-            "projectTools": ["TypeScript", "Mysql"],
+            "projectTools": ["TypeScript", "Mysql", "Redis"],
             "title": "Tsukishima Art Online",
             "workType": "自主制作"
         }],
