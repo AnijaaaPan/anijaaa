@@ -43,6 +43,9 @@
             "page_info": {
                 "description": "Discordは公式に31言語をサポートし、それらを相互に翻訳することができます。",
                 "fields": [{
+                    "key": "使用方法",
+                    "value": "<a href='/pdf/honyaku.pdf'>PDF</a>"
+                }, {
                     "key": "Discord BOT",
                     "value": "<a href='https://discord.com/oauth2/authorize?client_id=1176980194913943582&permissions=0&scope=applications.commands%20bot'>招待URL</a>"
                 }, {
