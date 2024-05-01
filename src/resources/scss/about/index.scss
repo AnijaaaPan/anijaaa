@@ -1,149 +1,177 @@
-.cf {
-    zoom: 1;
+.cf
+{
+  zoom: 1;
 
-    &:before,
-    &:after {
-        display: table;
+  &:before,
+  &:after
+  {
+    display: table;
 
-        content: "";
-    }
+    content: '';
+  }
 
-    &:after {
-        clear: both;
-    }
+  &:after
+  {
+    clear: both;
+  }
 }
 
-.contentBox {
-    margin: 0 20px;
+.contentBox
+{
+  margin: 0 20px;
 
-    .textBox {
-        font-size: unset;
+  .textBox
+  {
+    font-size: unset;
 
-        margin-bottom: 30px;
+    margin-bottom: 30px;
 
-        text-align: center;
+    text-align: center;
+  }
+
+  .imgFace
+  {
+    margin-bottom: 40px;
+
+    text-align: center;
+
+    img
+    {
+      width: 160px;
+      height: 160px;
+
+      border-radius: 17.5%;
+      -webkit-box-shadow: 10px 10px 15px -10px;
+              box-shadow: 10px 10px 15px -10px;
+    }
+  }
+
+  div.profileBoxRight .profile
+  {
+    font-size: 13px;
+
+    dt
+    {
+      font-weight: bold;
+
+      display: block;
+      float: left;
+
+      margin-right: min(1.75vh, 2.25vw);
     }
 
-    .imgFace {
-        margin-bottom: 40px;
+    dd
+    {
+      font-size: 13px;
 
-        text-align: center;
+      a
+      {
+        text-decoration: none;
 
-        img {
-            width: 160px;
-            height: 160px;
+        color: #00f;
 
-            border-radius: 17.5%;
-            -webkit-box-shadow: 10px 10px 15px -10px;
-            box-shadow: 10px 10px 15px -10px;
+        &:hover
+        {
+          color: #f00;
         }
+      }
+    }
+  }
+
+  @media only screen and (min-width: 961px)
+  {
+    margin: 0;
+
+    .profileBox
+    {
+      width: 960px;
+
+      .profileBoxLeft
+      {
+        float: left;
+
+        width: 160px;
+
+        text-align: left;
+      }
+
+      .profileBoxRight
+      {
+        width: 760px;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 760px)
+  {
+    margin: 0 40px;
+
+    .textBox
+    {
+      font-size: large;
+
+      margin-bottom: 50px;
     }
 
-    div.profileBoxRight .profile {
-        font-size: 13px;
+    .profileBox
+    {
+      width: 100%;
 
-        dt {
+      .profileBoxLeft
+      {
+        float: left;
+
+        width: 20%;
+
+        text-align: left;
+      }
+
+      .profileBoxRight
+      {
+        float: right;
+
+        width: 70%;
+
+        .profile
+        {
+          font-size: large;
+
+          margin-bottom: 20px;
+
+          dt
+          {
             font-weight: bold;
 
             display: block;
             float: left;
+          }
 
-            margin-right: min(1.75vh, 2.25vw);
-        }
-
-        dd {
-            font-size: 13px;
-
-            a {
-                text-decoration: none;
-
-                color: #00f;
-
-                &:hover {
-                    color: #f00;
-                }
-            }
-        }
-    }
-
-    @media only screen and (min-width: 961px) {
-        margin: 0;
-
-        .profileBox {
-            width: 960px;
-
-            .profileBoxLeft {
-                float: left;
-
-                width: 160px;
-
-                text-align: left;
-            }
-
-            .profileBoxRight {
-                width: 760px;
-            }
-        }
-    }
-
-    @media only screen and (min-width: 760px) {
-        margin: 0 40px;
-
-        .textBox {
+          dd
+          {
             font-size: large;
-
-            margin-bottom: 50px;
+          }
         }
-
-        .profileBox {
-            width: 100%;
-
-            .profileBoxLeft {
-                float: left;
-
-                width: 20%;
-
-                text-align: left;
-            }
-
-            .profileBoxRight {
-                float: right;
-
-                width: 70%;
-
-                .profile {
-                    font-size: large;
-
-                    margin-bottom: 20px;
-
-                    dt {
-                        font-weight: bold;
-
-                        display: block;
-                        float: left;
-                    }
-
-                    dd {
-                        font-size: large;
-                    }
-                }
-            }
-        }
+      }
     }
+  }
 }
 
-@media only screen and (min-width: 961px) {
-    #main.inner {
-        max-width: 960px;
-        margin: 0 auto;
-        padding: 0;
-    }
+@media only screen and (min-width: 961px)
+{
+  #main.inner
+  {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+  }
 }
 
-@media only screen and (min-width: 760px) {
-    #main.inner {
-        max-width: 960px;
-        margin: 0 auto;
-        padding: 0;
-    }
+@media only screen and (min-width: 760px)
+{
+  #main.inner
+  {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+  }
 }

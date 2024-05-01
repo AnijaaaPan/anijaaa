@@ -176,8 +176,7 @@
       </a>
     </li>
     <li>
-      <a href="https://instagram.com/tikutaku.py/" class="button bg-instagram" target="_blank"
-        rel="noopener noreferrer">
+      <a href="https://instagram.com/tikutaku.py/" class="button bg-instagram" target="_blank" rel="noopener noreferrer">
         <i class="fab fa-instagram"></i>
       </a>
     </li>
@@ -192,8 +191,7 @@
       </a>
     </li>
     <li>
-      <a href="https://discord.com/users/304932786286886912" class="button bg-discord" target="_blank"
-        rel="noopener noreferrer">
+      <a href="https://discord.com/users/304932786286886912" class="button bg-discord" target="_blank" rel="noopener noreferrer">
         <i class="fab fa-discord"></i>
       </a>
     </li>

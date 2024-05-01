@@ -5,108 +5,121 @@
 * Browsers: last 4 version
 */
 
-@-webkit-keyframes slideHeader {
-    0% {
-        -webkit-transform: translateX(0%);
-        transform: translateX(0%);
-    }
-    to {
-        -webkit-transform: translateX(-25%);
-        transform: translateX(-25%);
-    }
+@-webkit-keyframes slideHeader
+{
+  0%
+  {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  to
+  {
+    -webkit-transform: translateX(-25%);
+            transform: translateX(-25%);
+  }
 }
 
-@keyframes slideHeader {
-    0% {
-        -webkit-transform: translateX(0%);
-        transform: translateX(0%);
-    }
-    to {
-        -webkit-transform: translateX(-25%);
-        transform: translateX(-25%);
-    }
+@keyframes slideHeader
+{
+  0%
+  {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  to
+  {
+    -webkit-transform: translateX(-25%);
+            transform: translateX(-25%);
+  }
 }
 
-@mixin sliderHr {
-    width: 150%;
-    height: 7.5vh;
+@mixin sliderHr
+{
+  width: 150%;
+  height: 7.5vh;
 
-    -webkit-animation: slideHeader 20s linear infinite;
-    animation: slideHeader 20s linear infinite;
+  -webkit-animation: slideHeader 20s linear infinite;
+          animation: slideHeader 20s linear infinite;
 
-    background: #fff;
-    background-image: -webkit-linear-gradient(
-        left,
-        black 33%,
-        rgba(255, 255, 255, 0) 0%
-    );
-    background-image: -o-linear-gradient(
-        left,
-        black 33%,
-        rgba(255, 255, 255, 0) 0%
-    );
-    background-image: linear-gradient(
-        to right,
-        black 33%,
-        rgba(255, 255, 255, 0) 0%
-    );
-    background-repeat: repeat-x;
-    background-size: 5px 1.5px;
+  background: #fff;
+  background-image: -webkit-linear-gradient(
+  left,
+  black 33%,
+  rgba(255, 255, 255, 0) 0%
+  );
+  background-image:      -o-linear-gradient(
+  left,
+  black 33%,
+  rgba(255, 255, 255, 0) 0%
+  );
+  background-image:         linear-gradient(
+  to right,
+  black 33%,
+  rgba(255, 255, 255, 0) 0%
+  );
+  background-repeat: repeat-x;
+  background-size: 5px 1.5px;
 }
 
-#top-slider-hr {
-    position: fixed;
-    z-index: 999;
-    top: 0;
-    right: 0;
-    left: 0;
+#top-slider-hr
+{
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  left: 0;
 
-    background-position: bottom !important;
-    -webkit-box-shadow: 5px 2.5px 2.5px gray;
-    box-shadow: 5px 2.5px 2.5px gray;
+  background-position: bottom !important;
+  -webkit-box-shadow: 5px 2.5px 2.5px gray;
+          box-shadow: 5px 2.5px 2.5px gray;
 
-    @include sliderHr;
+  @include sliderHr;
 }
 
-#bottom-slider-hr {
-    position: absolute;
+#bottom-slider-hr
+{
+  position: absolute;
 
-    background-position: top !important;
-    -webkit-box-shadow: 0 -1px 1px 1px gray;
-    box-shadow: 0 -1px 1px 1px gray;
+  background-position: top !important;
+  -webkit-box-shadow: 0 -1px 1px 1px gray;
+          box-shadow: 0 -1px 1px 1px gray;
 
-    @include sliderHr;
+  @include sliderHr;
 }
 
-html {
-    overflow-x: hidden;
+html
+{
+  overflow-x: hidden;
 
-    width: 100vw;
-    height: 100vh;
+  width: 100vw;
+  height: 100vh;
 }
 
-body {
-    font-family: Helvetica, "游ゴシック", "Yu Gothic", YuGothic, HiraKakuProN-W3,
-        "メイリオ", Meiryo, sans-serif;
+body
+{
+  font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3,
+  'メイリオ', Meiryo, sans-serif;
 
-    overflow-x: hidden;
+  overflow-x: hidden;
 
-    width: 100%;
+  width: 100%;
 
-    background: #f8f8ff;
+  background: #f8f8ff;
 }
 
-main {
-    width: 85%;
-    min-height: 92.5vh;
-    margin: 7.5vh auto;
+main
+{
+  width: 85%;
+  min-height: 92.5vh;
+  margin: 7.5vh auto;
 }
 
-.h1 {
-    font-size: 2em;
+.h1
+{
+  font-size: 2em;
 
-    margin: 0;
-    padding: 5vh 0;
+  margin: 0;
+  padding: 5vh 0;
 
-    text-align: center;
+  text-align: center;
 }

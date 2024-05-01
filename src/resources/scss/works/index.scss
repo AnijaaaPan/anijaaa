@@ -1,24 +1,23 @@
-div.year-works {
-    margin: 3.5vh 0;
+div.year-works
+{
+  margin: 3.5vh 0;
 
-    .h2 {
-        font-size: 1.75em;
-        margin-bottom: 3.5vh;
-        padding: 5px;
-        text-align: left;
-        border-bottom: double 7.5px black;
+  .h2
+  {
+    font-size: 1.75em;  margin-bottom: 3.5vh;  padding: 5px;  text-align: left;  border-bottom: double 7.5px black;
 
-        /* iOS Safari and Chrome */
+/* iOS Safari and Chrome */
 
-        -webkit-font-smoothing: antialiased;
-        -webkit-text-size-adjust: 100%;
-    }
+    -webkit-font-smoothing: antialiased;  -webkit-text-size-adjust: 100%;
+  }
 
-    &:first-child {
-        margin-bottom: 0;
-    }
+  &:first-child
+  {
+    margin-bottom: 0;
+  }
 
-    &:last-child {
-        margin-top: 0;
-    }
+  &:last-child
+  {
+    margin-top: 0;
+  }
 }

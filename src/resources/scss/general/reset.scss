@@ -66,19 +66,15 @@ summary,
 time,
 mark,
 audio,
-video {
-    font-size: 100%;
-    margin: 0;
-    padding: 0;
-    vertical-align: baseline;
-    border: 0;
-    outline: 0;
-    background: transparent;
+video
+{
+  font-size: 100%;  margin: 0;  padding: 0;  vertical-align: baseline;  border: 0;  outline: 0;  background: transparent;
 }
 
 // Set line height of body
-body {
-    line-height: 1;
+body
+{
+  line-height: 1;
 }
 
 // Set elements to display:block
@@ -92,83 +88,78 @@ header,
 hgroup,
 menu,
 nav,
-section {
-    display: block;
+section
+{
+  display: block;
 }
 
 // Remove default list styles
-nav ul {
-    list-style: none;
+nav ul
+{
+  list-style: none;
 }
 
 // Remove default quotes
 blockquote,
-q {
-    quotes: none;
+q
+{
+  quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
-q:after {
-    content: "";
-    content: none;
+q:after
+{
+  content: '';  content: none;
 }
 
 // Remove default link styles
-a {
-    font-size: 100%;
-    margin: 0;
-    padding: 0;
-    vertical-align: baseline;
-    background: transparent;
+a
+{
+  font-size: 100%;  margin: 0;  padding: 0;  vertical-align: baseline;  background: transparent;
 }
 
 // Add styles for inserted text
-ins {
-    text-decoration: none;
-    color: #000;
-    background-color: #ff9;
+ins
+{
+  text-decoration: none;  color: #000;  background-color: #ff9;
 }
 
 // Add styles for marked text
-mark {
-    font-weight: bold;
-    font-style: italic;
-    color: #000;
-    background-color: #ff9;
+mark
+{
+  font-weight: bold;  font-style: italic;  color: #000;  background-color: #ff9;
 }
 
 // Add styles for deleted text
-del {
-    text-decoration: line-through;
+del
+{
+  text-decoration: line-through;
 }
 
 // Add styles for abbreviations and definitions
 abbr[title],
-dfn[title] {
-    cursor: help;
-    border-bottom: 1px dotted;
+dfn[title]
+{
+  cursor: help;  border-bottom: 1px dotted;
 }
 
 // Reset table styles
-table {
-    border-spacing: 0;
-    border-collapse: collapse;
+table
+{
+  border-spacing: 0;  border-collapse: collapse;
 }
 
 // Add default hr styles
-hr {
-    display: block;
-    height: 1px;
-    margin: 1em 0;
-    padding: 0;
-    border: 0;
-    border-top: 1px solid #ccc;
+hr
+{
+  display: block;  height: 1px;  margin: 1em 0;  padding: 0;  border: 0;  border-top: 1px solid #ccc;
 }
 
 // Align input and select elements vertically
 input,
-select {
-    vertical-align: middle;
+select
+{
+  vertical-align: middle;
 }
